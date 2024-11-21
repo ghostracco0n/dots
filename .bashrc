@@ -7,7 +7,7 @@
 export EDITOR=nvim
 export HISTCONTROL=ignoredups
 
-## aliases
+##### aliases
 # ls
 alias ls='ls -lah --color=auto'
 

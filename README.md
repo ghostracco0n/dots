@@ -1,31 +1,27 @@
-#My dotfiles
+# My dotfiles
 
 This contains my dotfiles.
 
-##Requirements
+## Requirements
 
 Make sure you installed these:
 
-###Git
-'''
-pacman -S git
-'''
+### Git
 
-###Stow
-'''
-pacman -S stow
+`pacman -S git`
 
-##Instalation
+### Stow
 
-First, check out the repo in your $HOME directory using git
+`pacman -S stow`
 
-'''
-$ git clone https://github.com/ghostracco0n/dots.git
-$ cd dots
-'''
+## Instalation
+
+First, check out the repo in your $HOME directory using git:
+
+`$ git clone https://github.com/ghostracco0n/dots.git`
+
+`$ cd dots`
 
 Then use GNU Stow to create the symlinks
 
-'''
-stow .
-'''
+`stow .`

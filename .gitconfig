@@ -1,0 +1,12 @@
+[user]
+	name = alek
+	email = 111607655+ghostracco0n@users.noreply.github.com
+[color]
+        diff = auto
+        status = auto
+        branch = auto
+        ui = true
+[core]
+        editor = vim
+[credential]
+	credentialStore = secretservice

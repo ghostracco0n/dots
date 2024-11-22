@@ -4,8 +4,9 @@
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
-export EDITOR=nvim
+export EDITOR=vim
 export HISTCONTROL=ignoredups
+export MANPAGER='vim -M +MANPAGER - '
 
 ##### aliases
 # ls

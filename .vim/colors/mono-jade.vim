@@ -1,8 +1,8 @@
 hi clear
 syntax reset
 let g:colors_name = "mono-jade"
-set background=dark
 set t_Co=256
+set background=dark
 hi Normal guifg=#dadada ctermbg=NONE guibg=#0a0a0a gui=NONE
 
 hi Identifier guifg=#A5BFB9 guibg=NONE
@@ -49,7 +49,7 @@ hi Todo guifg=#d4d4d5 guibg=NONE
 hi Special guifg=#d4d4d5 guibg=NONE
 hi Label guifg=#d4d4d5 guibg=NONE
 hi Delimiter guifg=#d4d4d5 guibg=NONE
-hi Number guifg=#d4d4d5 guibg=NONE
+hi Number guifg=#f2b8c6 guibg=NONE
 hi CursorLineNR guifg=#d4d4d5 guibg=NONE
 hi Define guifg=#d4d4d5 guibg=NONE
 hi MoreMsg guifg=#d4d4d5 guibg=NONE

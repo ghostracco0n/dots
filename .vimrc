@@ -1,4 +1,8 @@
-colorscheme mono-jade
+colorscheme elementary
+
+let $PAGER=''
+
+"set termguicolors
 
 " Disable compatibility with vi which can cause unexpected issues.
 set nocompatible
@@ -60,3 +64,5 @@ set hlsearch
 
 " Set the commands to save in history default number is 20.
 set history=1000
+
+

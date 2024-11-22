@@ -34,3 +34,6 @@ fi
 PS1='\[\e[38;5;199;3m\]\u\[\e[0m\] \[\e[1m\]@\[\e[0m\] \[\e[1m\]\h\[\e[0m\] \[\e[2;3m\]in\[\e[0m\] \[\e[38;5;35;1m\]\w\n\[\e[39m\]>\[\e[0m\] '
 
 [[ ! ${BLE_VERSION-} ]] || ble-attach
+
+# Created by `pipx` on 2024-11-22 01:22:52
+export PATH="$PATH:/home/alek/.local/bin"

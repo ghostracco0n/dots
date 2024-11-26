@@ -15,7 +15,7 @@ shopt -s autocd
 
 ##### aliases
 # ls
-alias ls='ls -lah --color=auto'
+alias la='ls -lah --color=auto'
 
 # Modified commands
 alias grep='grep --color=auto'

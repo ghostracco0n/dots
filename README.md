@@ -1,8 +1,4 @@
-# My dotfiles
-
-This contains my dotfiles.
-
-## Requirements
+# Requirements
 
 Make sure you installed these:
 

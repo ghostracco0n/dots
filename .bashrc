@@ -6,10 +6,11 @@
 
 export EDITOR=nvim
 export HISTCONTROL=ignoredups
-export MANPAGER='vim -M +MANPAGER - '
+export MANPAGER='nvim +Man!'
 export SUDO_PROMPT="$(tput setaf 1 bold)Password:$(tput sgr0) "
 # Created by `pipx` on 2024-11-22 01:22:52
 export PATH="$PATH:/home/alek/.local/bin"
+export PATH="$PATH:~/.scripts"
 
 # auto cd
 shopt -s autocd

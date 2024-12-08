@@ -10,3 +10,5 @@
         editor = vim
 [credential]
 	credentialStore = secretservice
+[init]
+	defaultBranch = main

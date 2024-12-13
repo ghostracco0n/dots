@@ -1,5 +1,5 @@
-# ~/.bashrc#
-[[ $- == *i* ]] && source /usr/share/blesh/ble.sh --noattach
+# ~/.bashrc
+[[ $- == *i* ]] && source /home/alek/.local/share/blesh/ble.sh --noattach
 
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
@@ -9,8 +9,9 @@ export HISTCONTROL=ignoredups
 export MANPAGER='nvim +Man!'
 export SUDO_PROMPT="$(tput setaf 1 bold)Password:$(tput sgr0) "
 # Created by `pipx` on 2024-11-22 01:22:52
-export PATH="$PATH:/home/alek/.local/bin"
-export PATH="$PATH:~/.scripts"
+export PATH=$PATH:/home/alek/.local/bin
+export PATH=$PATH:$HOME/.scripts
+export LESS='-R --use-color -Dd+r$Du+b$'
 
 # auto cd
 shopt -s autocd

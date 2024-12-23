@@ -44,6 +44,7 @@ alias pacq='pacman -Qs'     # search pkg
 # misc.
 alias ff='fastfetch'  # fastfetch
 alias g='git'
+alias gst='git status'
 
 # Privileged access
 if (( UID != 0 )); then

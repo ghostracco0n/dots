@@ -27,6 +27,7 @@ alias l='ls -l'
 alias la='ls -la'
 alias lt='ls --tree'
 
+# modified commands
 alias rmd='rm --recursive --force --verbose '
 alias grep='grep --color=auto'
 alias cp='cp -i'
@@ -39,6 +40,10 @@ alias paclo='pacman -Qdt'    # list orphans
 alias pacro='paclo && sudo pacman -Rns $(pacman -Qtdq)' # remove orphans
 alias paclf='pacman -Ql'   # list files
 alias pacq='pacman -Qs'     # search pkg
+
+# misc.
+alias ff='fastfetch'  # fastfetch
+alias g='git'
 
 # Privileged access
 if (( UID != 0 )); then

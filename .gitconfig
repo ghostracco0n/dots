@@ -7,8 +7,12 @@
         branch = auto
         ui = true
 [core]
-        editor = vim
+        editor = nvim
 [credential]
 	credentialStore = secretservice
+	helper = 
+	helper = /usr/local/bin/git-credential-manager
 [init]
 	defaultBranch = main
+[credential "https://dev.azure.com"]
+	useHttpPath = true
